@@ -1,9 +1,9 @@
 # NetflxMTV
 
-Project: Predicting Netflix Content Rating from Metadata
-Type: Classification
-Target variable: rating_group (Kids / Teens / Mature, grouped from original rating column)
-Dataset: netflix_titles.csv, original 8807 rows x 12 columns, final 8790 rows x 12 columns
+Project: Predicting Netflix Content Rating from Metadata<br>
+Type: Classification<br>
+Target variable: rating_group (Kids / Teens / Mature)<br>
+Dataset: netflix_titles.csv, original 8807 rows x 12 columns
 
 
 Glitch rows
