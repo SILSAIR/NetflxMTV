@@ -98,3 +98,8 @@ df.columns.tolist() and df.shape:
      'release_year', 'rating', 'listed_in', 'rating_group',
      'duration_minutes', 'duration_seasons']
     (8790, 12)
+Key insights
+-------------
+1. Rating column had a 3-row column-shift glitch where duration values appeared instead of ratings.
+2. Duration required splitting since movies and TV shows use different units (minutes vs. seasons).
+3. Raw rating column had 15+ categories, several with fewer than 10 rows; grouped into 3 balanced classes (Kids, Teens, Mature) for classification.
